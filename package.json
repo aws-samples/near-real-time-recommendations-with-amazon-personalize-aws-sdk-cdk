@@ -1,0 +1,31 @@
+{
+  "name": "create_dataset_group",
+  "version": "0.1.0",
+  "bin": {
+    "create_dataset_group": "bin/create_dataset_group.js"
+  },
+  "scripts": {
+    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+    "cdk": "cdk",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "@babel/helper-compilation-targets": "^7.22.6",
+    "aws-cdk": "2.87.0",
+    "esbuild": "^0.18.16",
+    "jest": "^25.0.0"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-kinesis": "^1.121.0",
+    "@aws-cdk/aws-kinesisfirehose-alpha": "^2.93.0-alpha.0",
+    "@aws-cdk/aws-kinesisfirehose-destinations-alpha": "^2.93.0-alpha.0",
+    "@aws-cdk/aws-lambda-event-sources": "^1.94.1",
+    "@aws-sdk/client-personalize": "^3.363.0",
+    "@aws-sdk/client-personalize-events": "^3.388.0",
+    "@aws-sdk/client-personalize-runtime": "^3.388.0",
+    "aws-cdk-lib": "2.87.0",
+    "constructs": "^10.0.0",
+    "js-yaml": "^4.1.0",
+    "lodash": "^4.17.21"
+  }
+}
