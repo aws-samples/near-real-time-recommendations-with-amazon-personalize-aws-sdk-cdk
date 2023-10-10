@@ -86,12 +86,14 @@ Therefore, a dataset of items is also created and is available at this [link](ht
 
 ## 2 Deploying the solution
 
-Before cloning the repository make sure you have installed and configured [AWS CLI](https://aws.amazon.com/cli/)
-and [AWS CDK](https://aws.amazon.com/cdk/).
+- Install and configure [AWS CLI](https://aws.amazon.com/cli/) and [AWS CDK](https://aws.amazon.com/cdk/) in your development environment.
 
 ### 2.1 Deployment
 
-Once you have cloned the repository, in the root directory run the following command:
+Clone the repository using the following command: 
+- `git clone https://github.com/aws-samples/near-real-time-recommendations-with-amazon-personalize-aws-sdk-cdk.git`
+
+In the root directory of the cloned repository, run the following command:
 
 - `npm install --force` 
 
